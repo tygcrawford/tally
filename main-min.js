@@ -1,0 +1,1 @@
+var tally=0,display=document.getElementById("tally"),plus=document.getElementById("plus");plus.addEventListener("click",function(){tally++,display.innerHTML=tally});

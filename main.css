@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto/Roboto-Regular.ttf); }
+
+body {
+  background: #34495e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 175px;
+  width: 175px; }
+
+h1 {
+  color: #ecf0f1;
+  font-family: 'Roboto';
+  font-size: 30px; }
+
+#plus {
+  color: #ecf0f1;
+  font-size: 50px;
+  cursor: pointer;
+  transition: all 0.5s; }
+  #plus:active {
+    color: #b1c2c6; }
