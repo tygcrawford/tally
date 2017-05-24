@@ -58,12 +58,23 @@ body {
   text-align: center;
   position: relative;
   bottom: 0;
-  background: #ecf0f1;
-  color: #34495e;
-  cursor: pointer; }
-  .button_cont .button {
+  color: #34495e; }
+  .button_cont .half-button {
+    cursor: pointer;
     padding: 2.5px 0;
-    transition: all 0.5s; }
+    transition: all 0.5s;
+    width: 50%;
+    float: left;
+    background: #ecf0f1; }
+    .button_cont .half-button:hover {
+      background: #cfd9db; }
+    .button_cont .half-button span {
+      font-size: 20px; }
+  .button_cont .button {
+    cursor: pointer;
+    padding: 2.5px 0;
+    transition: all 0.5s;
+    background: #ecf0f1; }
     .button_cont .button:hover {
       background: #cfd9db; }
     .button_cont .button span {

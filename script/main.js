@@ -6,6 +6,7 @@ var clos = document.getElementById("close");
 var gear = document.getElementById("gear");
 var set_ov = document.getElementById("settings_overlay");
 var badge_ctrl = document.getElementById("badge_ctrl");
+var minus = document.getElementById("minus");
 var set_ov_switch = 2;
 var badge_ctrl_switch = 2;
 
@@ -79,6 +80,16 @@ plus.addEventListener('click', function(){
 
 clos.addEventListener('click', function(){
   tally = 0;
+  display.innerHTML = tally;
+  if(badge_ctrlStore){
+    chrome.browserAction.setBadgeText({text: tally.toString()});
+  }
+  chrome.storage.sync.set({'tallySync':tally}, function(){
+  });
+});
+
+minus.addEventListener('click', function(){
+  tally--;
   display.innerHTML = tally;
   if(badge_ctrlStore){
     chrome.browserAction.setBadgeText({text: tally.toString()});

@@ -3,7 +3,7 @@
 
   "name": "Tally",
   "description": "This extension keeps labeled tallies of whatever your heart desires to count.",
-  "version": "1.2",
+  "version": "1.2.1",
 
   "icons": {
     "16" : "assets/icon_16.png",

@@ -62,12 +62,23 @@ body
 	text-align: center
 	position: relative
 	bottom: 0
-	background: $wt
 	color: $bg
-	cursor: pointer
-	.button
+	.half-button
+		cursor: pointer
 		padding: 2.5px 0
 		transition: all 0.5s
+		width: 50%
+		float: left
+		background: $wt
+		&:hover
+			background: darken($wt, 10%)
+		span
+			font-size: 20px
+	.button
+		cursor: pointer
+		padding: 2.5px 0
+		transition: all 0.5s
+		background: $wt
 		&:hover
 			background: darken($wt, 10%)
 		span
