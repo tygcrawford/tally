@@ -3,13 +3,22 @@
 
   "name": "Tally",
   "description": "This extension keeps labeled tallies of whatever your heart desires to count.",
-  "version": "1.1",
+  "version": "1.2",
+
+  "icons": {
+    "16" : "assets/icon_16.png",
+    "128" : "assets/icon_128.png"
+   },
 
   "browser_action": {
-    "default_icon": "assets/icon.png",
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "assets/icon_128.png"
   },
+
   "permissions": [
     "storage"
-  ]
+  ],
+  "background": {
+    "scripts": ["script/background.js"]
+  }
 }

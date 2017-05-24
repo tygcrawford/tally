@@ -9,11 +9,22 @@
 	],
 "creatorBuild": "25813",
 "files": {
-	"\/assets\/icon.png": {
+	"\/assets\/icon_128.png": {
+		"ft": 32768,
+		"iS": 2857,
+		"oA": 0,
+		"oAP": "\/assets\/icon_128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icon_16.png": {
 		"ft": 32768,
 		"iS": 763,
 		"oA": 0,
-		"oAP": "\/assets\/icon.png",
+		"oAP": "\/assets\/icon_16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -14303,6 +14314,24 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/script\/background-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/script\/background-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/script\/background.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/script\/background-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/script\/main-min.js": {
 		"ft": 64,
