@@ -1,0 +1,13 @@
+%html
+  %head
+    %title Tally
+    %link{:type => "text/css", :rel => "stylesheet", :href => "style/main.css"}
+    %link{:type => "text/css", :rel => "stylesheet", :href => "bower_components/Ionicons/css/ionicons.css"}
+  %body
+    #tally 0
+    .button_cont
+      .button#plus
+        %span.ion-plus-round
+      .button#close
+        %span.ion-close-round
+    %script{:src => "script/main.js"}

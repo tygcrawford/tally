@@ -9,6 +9,95 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/assets\/icon.png": {
+		"ft": 32768,
+		"iS": 763,
+		"oA": 0,
+		"oAP": "\/assets\/icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Roboto\/LICENSE.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-Black.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-BlackItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-BlackItalic.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-Bold.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-BoldItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-BoldItalic.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-Light.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-LightItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-LightItalic.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-Medium.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-MediumItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-MediumItalic.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-Regular.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-Thin.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-Thin.ttf",
+		"oF": 0
+		},
+	"\/assets\/Roboto\/Roboto-ThinItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/Roboto\/Roboto-ThinItalic.ttf",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -14188,63 +14277,24 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/icon.png": {
-		"ft": 32768,
-		"iS": 763,
+	"\/index.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
 		"oA": 0,
-		"oAP": "\/icon.png",
+		"oAP": "\/index.html",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
-		},
-	"\/main-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/main-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/main.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/manifest.json": {
 		"ft": 524288,
@@ -14254,83 +14304,46 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/Roboto\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/LICENSE.txt",
-		"oF": 0
+	"\/script\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/script\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
-	"\/Roboto\/Roboto-Black.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-Black.ttf",
-		"oF": 0
+	"\/script\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/script\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
-	"\/Roboto\/Roboto-BlackItalic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-BlackItalic.ttf",
-		"oF": 0
+	"\/style\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style\/main-min.css",
+		"oF": 0,
+		"oS": 0
 		},
-	"\/Roboto\/Roboto-Bold.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-Bold.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-BoldItalic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-BoldItalic.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-Italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-Italic.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-Light.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-Light.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-LightItalic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-LightItalic.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-Medium.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-Medium.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-MediumItalic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-MediumItalic.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-Regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-Regular.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-Thin.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-Thin.ttf",
-		"oF": 0
-		},
-	"\/Roboto\/Roboto-ThinItalic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Roboto\/Roboto-ThinItalic.ttf",
-		"oF": 0
+	"\/style\/main.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -14339,7 +14352,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 517255718,
-	"displayValue": "Tally Extension",
+	"displayValue": "tally",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl"
 	},
@@ -15709,7 +15722,7 @@
 			"flagValue": -1
 			},
 		"bitwise": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"boss": {
@@ -15733,7 +15746,7 @@
 			"flagValue": -1
 			},
 		"curly": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"debug": {
@@ -15753,7 +15766,7 @@
 			"flagValue": -1
 			},
 		"eqeqeq": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"eqnull": {
