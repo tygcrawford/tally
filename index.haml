@@ -5,6 +5,7 @@
     %link{:type => "text/css", :rel => "stylesheet", :href => "bower_components/Ionicons/css/ionicons.css"}
   %body
     #tally 0
+    #tab_label Tally
     .button_cont
       .button#plus
         %span.ion-plus-round
@@ -17,5 +18,12 @@
       .setting_cont
         .setting_title Badge
         %span.ion-android-checkbox.checkbox#badge_ctrl
+    #clear_overlay
+      .clear_conf Are you sure you want to clear this tally?
+      %button#clear_yes Yes
+      %button#clear_no No
     %span#gear.ion-gear-a
+    .tab_cont
+      %span#left.ion-ios-arrow-back
+      %span#right.ion-ios-arrow-forward
     %script{:src => "script/main-min.js"}

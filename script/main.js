@@ -6,9 +6,16 @@ var clos = document.getElementById("close");
 var gear = document.getElementById("gear");
 var set_ov = document.getElementById("settings_overlay");
 var badge_ctrl = document.getElementById("badge_ctrl");
+var left_t = document.getElementById("left");
+var right_t = document.getElementById("right");
 var minus = document.getElementById("minus");
+
 var set_ov_switch = 2;
 var badge_ctrl_switch = 2;
+
+var pages = [["Tally", 0]];
+
+var current_page = 0;
 
 function checkForData(){
   chrome.storage.sync.get('badge_ctrlSync', function(out){

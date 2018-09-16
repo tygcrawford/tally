@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Tally",
-  "description": "This extension keeps labeled tallies of whatever your heart desires to count.",
-  "version": "1.2.1",
+  "description": "Tally keeps tallies of of anything you can think of to count.",
+  "version": "1.3",
 
   "icons": {
     "16" : "assets/icon_16.png",
@@ -19,6 +19,6 @@
     "storage"
   ],
   "background": {
-    "scripts": ["script/background.js"]
+    "scripts": ["script/background-min.js"]
   }
 }

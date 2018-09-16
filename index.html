@@ -6,6 +6,7 @@
   </head>
   <body>
     <div id='tally'>0</div>
+    <div id='tab_label'>Tally</div>
     <div class='button_cont'>
       <div class='button' id='plus'>
         <span class='ion-plus-round'></span>
@@ -25,7 +26,16 @@
         <span class='ion-android-checkbox checkbox' id='badge_ctrl'></span>
       </div>
     </div>
+    <div id='clear_overlay'>
+      <div class='clear_conf'>Are you sure you want to clear this tally?</div>
+      <button id='clear_yes'>Yes</button>
+      <button id='clear_no'>No</button>
+    </div>
     <span class='ion-gear-a' id='gear'></span>
+    <div class='tab_cont'>
+      <span class='ion-ios-arrow-back' id='left'></span>
+      <span class='ion-ios-arrow-forward' id='right'></span>
+    </div>
     <script src='script/main-min.js'></script>
   </body>
 </html>
